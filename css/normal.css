@@ -1,0 +1,31 @@
+/* General Page Style */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(63, 79, 89); /* Background color remains as is */
+    font-family: "Futura", sans-serif; /* Ensure font-family is set correctly */
+    position: relative;
+}
+
+/* Top-left Legend Style */
+.text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 20px; 
+    font-weight: medium; 
+    color: white; 
+}
+
+/* Bottom-right Image Style */
+.cat-image {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 200px; /* Double the size */
+    height: 200px; /* Double the size */
+    background-image: url("../resources/cat.png");
+    background-size: cover;
+    background-position: center; /* Ensure image is centered */
+}
